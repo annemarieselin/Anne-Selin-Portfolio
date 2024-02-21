@@ -1,0 +1,138 @@
+:root {
+  --primary-color: #022954;
+  --secondary-color: #354c7c;
+  --color3: #505a74;
+  --color4: #b0b8ce;
+  --color5: #eaebfe;
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Libre Baskerville", serif;
+  --font3: "Sacramento", cursive;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  padding-top: 100px;
+}
+
+h2 {
+  font-family: var(--font3);
+  color: var(--color3);
+  font-size: 60px !important;
+}
+
+h3 {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-family: var(--primary-font);
+  color: black;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  margin-left: 45px;
+}
+
+.col-md-6 {
+  background-color: white !important;
+}
+
+.navigation-link-yoga a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.col {
+  flex: 1 1 50%;
+}
+
+@media (max-width: 600px) {
+  .about-link,
+  .contact-link {
+    position: relative;
+    text-align: center;
+    display: grid;
+  }
+  .row {
+    text-align: center;
+  }
+
+  .about-paragraphs {
+    text-align: center;
+  }
+}
+
+.contact {
+  padding-bottom: 20px;
+}
