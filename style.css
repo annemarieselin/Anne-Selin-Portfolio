@@ -27,7 +27,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-family: var (--primary-font);
+  font-family: var(--secondary-font);
   margin: 4px;
   margin-top: 30px;
 }
@@ -42,9 +42,14 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-family: var (--primary-font);
+  font-family: var(--secondary-font);
   margin: 4px;
   margin-top: 0px;
+}
+
+.project-description {
+  padding: 30px;
+  padding-top: 60px;
 }
 
 h1 {
@@ -69,8 +74,20 @@ h3 {
 p {
   font-family: var(--primary-font);
   color: black;
-  padding: 20px;
-  border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .button-primary {
+    padding-bottom: 20px;
+  }
 }
