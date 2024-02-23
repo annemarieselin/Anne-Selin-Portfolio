@@ -88,6 +88,6 @@ p {
     padding: 80px 20px;
   }
   .button-primary {
-    padding-bottom: 20px;
+    margin-bottom: 40px;
   }
 }
