@@ -84,10 +84,29 @@ p {
     padding-bottom: 20px;
     text-align: center;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+
   .button-primary {
     margin-bottom: 40px;
   }
+
+  .hero-about {
+    padding: none;
+    margin: none;
+    text-align: center;
+  }
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 20px;
+  margin-left: 60px;
+}
+
+.hero-about h2 {
+  font-size: 30px;
+}
+
+.hero-about {
+  padding: 100px 10px;
+  margin-left: 190px;
 }
