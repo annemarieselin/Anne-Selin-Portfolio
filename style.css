@@ -78,6 +78,20 @@ p {
   line-height: 1.5;
 }
 
+.headshot {
+  width: 600px;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+
+.hero-about h2 {
+  font-size: 30px;
+}
+
+.hero-about {
+  padding: 100px 30px;
+}
+
 @media (max-width: 960px) {
   .project-description {
     padding-top: 0;
@@ -90,23 +104,8 @@ p {
   }
 
   .hero-about {
-    padding: none;
-    margin: none;
+    padding: 10px;
+    padding-top: 40px;
     text-align: center;
   }
-}
-
-.headshot {
-  width: 300px;
-  border-radius: 20px;
-  margin-left: 60px;
-}
-
-.hero-about h2 {
-  font-size: 30px;
-}
-
-.hero-about {
-  padding: 100px 10px;
-  margin-left: 190px;
 }
