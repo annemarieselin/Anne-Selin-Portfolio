@@ -55,14 +55,14 @@
 h1 {
   font-family: var(--secondary-font);
   color: var(--color3);
-  font-size: 27px !important;
+  font-size: 27px;
   opacity: 0.9;
 }
 
 h2 {
   font-family: var(--font3);
   color: var(--color4);
-  font-size: 60px !important;
+  font-size: 60px;
 }
 
 h3 {
@@ -84,15 +84,37 @@ p {
   margin-left: 40px;
 }
 
-.hero-about h2 {
-  font-size: 30px;
+.branding-header {
+  background-color: var(--color5);
+  padding: 30px;
+  border-radius: 20px;
+  color: var(--primary-color);
 }
 
-.hero-about {
+.content-container {
   padding: 100px 30px;
+  text-align: center;
 }
 
-@media (max-width: 960px) {
+.content-container h1 {
+  font-size: 40px;
+}
+
+.content-container h2 {
+  font-size: 50px;
+}
+
+.content-container p {
+  padding: 0 20px;
+}
+
+.weatherapp,
+.charlie {
+  width: 500px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
   .project-description {
     padding-top: 0;
     padding-bottom: 20px;
@@ -100,12 +122,30 @@ p {
   }
 
   .button-primary {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
-  .hero-about {
+  .content-container {
     padding: 10px;
     padding-top: 40px;
     text-align: center;
+    flex-direction: column;
+  }
+
+  .content-container h1 {
+    font-size: 35px;
+  }
+
+  .content-container h2 {
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  .content-container p {
+    padding: 5px;
+  }
+
+  .button-primary {
+    margin-bottom: 50px;
   }
 }
