@@ -114,6 +114,16 @@ p {
   padding-bottom: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 767px) {
   .project-description {
     padding-top: 0;
