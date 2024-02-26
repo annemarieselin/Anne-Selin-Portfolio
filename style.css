@@ -114,6 +114,17 @@ p {
   padding-bottom: 20px;
 }
 
+.contact-container {
+  padding: 100px 30px;
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
 a {
   text-decoration: underline;
   color: inherit;
