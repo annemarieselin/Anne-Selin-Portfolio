@@ -258,4 +258,9 @@ footer .email-link:hover {
   .button-primary {
     margin-bottom: 50px;
   }
+
+  .weatherapp,
+  .charlie {
+    width: 300px;
+  }
 }
