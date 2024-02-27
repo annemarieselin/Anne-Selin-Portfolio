@@ -114,6 +114,10 @@ p {
   padding-bottom: 20px;
 }
 
+.custom-rounded {
+  border-radius: 20px;
+}
+
 .contact-container {
   padding: 100px 30px;
   text-align: center;
@@ -177,6 +181,47 @@ nav li.active a {
   font-family: var(--font3);
   font-size: 25px;
   text-transform: lowercase;
+}
+
+footer {
+  margin: 60px 0;
+  background: var(--color5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--color3);
+  padding: 10px 14px;
+  font-size: 25px;
+  background: #fbfbfb;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  margin: 0 20px;
+  color: var(--color4);
+  background: #fbfbfb;
+  border-radius: 50%;
+  padding: 10px 14px;
+  font-size: 25px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  font-size: 35px;
+  text-align: center;
+  color: var(--color3);
+  font-family: var(--font3);
+}
+
+footer .email-link:hover {
+  text-decoration: none;
+  font-size: 35px;
+  text-align: center;
+  color: var(--color4);
+  font-family: var(--font3);
 }
 
 @media (max-width: 767px) {
