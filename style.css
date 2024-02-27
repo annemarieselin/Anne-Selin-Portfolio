@@ -135,6 +135,50 @@ a:hover {
   color: inherit;
 }
 
+.logo {
+  max-width: 150px;
+  padding-left: 20px;
+}
+
+nav {
+  padding: 5px 0;
+  font-family: var(--primary-font);
+  background-color: var(--color5);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 60px;
+  margin-left: 15px;
+  margin-right: 25px;
+  font-size: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: var(--color3);
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a {
+  color: var(--color3);
+  font-family: var(--font3);
+  font-size: 25px;
+  text-transform: lowercase;
+}
+
 @media (max-width: 767px) {
   .project-description {
     padding-top: 0;
